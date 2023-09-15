@@ -1,0 +1,290 @@
+body {
+    margin: 0;
+}
+
+.headlineContainer {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+.inputHeader {
+    border-radius: 5px;
+    height: 25px;
+    width: 230px;
+    margin-left: 75px;
+}
+
+.searchField {
+    display: flex;
+}
+
+.imgIcons {
+    width: 30px;
+    height: 30px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.userMainContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.userContainer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.userIcons {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 0, 0, 0.5);
+    object-fit: cover;
+}
+
+.userOverview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seperator {
+    height: 1px;
+    background-color: black;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.newPost {
+    max-width: 600px;
+    max-height: 1000px;
+    border: 10px;
+    margin-bottom: 40px;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+}
+
+.postHeader {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.headerIMG {
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 2px solid rgba(255, 0, 0, 0.5)
+}
+
+
+.postIMG {
+    height: 600px;
+    width: 500px;
+    object-fit: cover;
+}
+
+.postIconsContainer {
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.postIcons {
+    width: 25px;
+    height: 25px;
+    padding-right: 8px;
+    cursor: pointer;
+}
+
+.postLikes {
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.postDescription {
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.postComments {
+    padding-left: 10px;
+}
+
+.postFooter {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 0px 5px 0px 5px;
+}
+
+.inputFooter {
+    height: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.inputButton {
+    height: 36.2px;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+} 
+
+.inputButton:hover {
+    color: aqua;
+    font-size: 18px;
+} 
+
+@media (max-width: 1220px) {
+
+    .inputHeader {
+        margin-left: 40px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+    .inputHeader {
+        margin-left: 20px;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .inputHeader {
+        margin-left: 0;
+    }
+
+}
+
+@media (max-width: 680px) {
+
+    .inputHeader {
+        display: none;
+    }
+
+    .userIcon {
+        padding-right: 0;
+    }
+
+}
+
+@media (max-width: 550px) {
+
+    .postIMG {
+        width: 400px;
+        height: 500px;
+    }
+
+    .userIcons {
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .houseIcon {
+        display: none;
+    }
+
+    .userIcon {
+        display: none;
+    }
+
+}
+
+@media (max-width: 430px) {
+
+    .postIMG {
+        width: 350px;
+        height: 450px;
+    }
+
+    .userIcons {
+        width: 35px;
+        height: 35px;
+    }
+
+    .imgIcons {
+        width: 25px;
+        height: 25px;
+        padding-right: 10px;
+        cursor: pointer;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+}
+
+@media (max-width: 390px) {
+
+    .postIMG {
+        width: 320px;
+        height: 400px;
+    }
+
+    .userIcons {
+        width: 32px;
+        height: 32px;
+        margin: 5px;
+    }
+
+    .userOverview {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 350px) {
+
+    .postIMG {
+        width: 290px;
+    }
+
+    .postIcons {
+        width: 21px;
+        height: 21px;
+    }
+
+}
+
